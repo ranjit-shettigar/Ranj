@@ -1,1 +1,1 @@
-<h3>Welcome, Admin</h3>
+<h3>Welcome, <?php echo $_SESSION['empname']; ?></h3>

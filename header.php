@@ -9,15 +9,15 @@
   <meta name="description" content="E-commerce site for Drnklab">
   <meta name="author" content="Kaushik">
 
-  <title>Drnklab Online - Admin</title>
+  <title>Drnklab Online - Employee</title>
 
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="../admin2/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
-  <!-- Page level plugin CSS-->
-  <!-- <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet"> -->
+  <link href="../admin2/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 
-  <link href="css/sb-admin.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link href="../admin2/css/sb-admin.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="../admin2/css/custom.css">
 	<style type="text/css">
 		.login-msg
 		{
@@ -40,7 +40,7 @@
 
   <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="index.php">Drnklab Admin</a>
+    <a class="navbar-brand mr-1" href="index.php">Drnklab Staff</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
       <i class="fas fa-bars"></i>
@@ -85,7 +85,7 @@
         </div>
       </li> -->
       <li class="nav-item" style="color: white;">
-        <?php if(isset($_SESSION['adminname'])) { echo $_SESSION['adminname']; } ?>
+        <?php if(isset($_SESSION['empname'])) { echo $_SESSION['empname']; } ?>
       </li>
       <li class="nav-item dropdown no-arrow">
         <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
