@@ -1,0 +1,3 @@
+RewriteEngine on
+
+RewriteRule ^(index|cart|gallery|login|signup|category|item|about|contact|home|logout|cart_user|checkout|payment|thankyou|place_order|callback|register|forgotPassword|resetPassword)$ $1.php [NC,L]

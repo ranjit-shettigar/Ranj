@@ -1,0 +1,29 @@
+
+    	.container
+    	{
+    		max-width: 1240px;
+    	}
+      @media (min-width: 992px) 
+      {
+        .cart-img
+        {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+      .cart-img
+      {
+        border: 1px solid silver;
+      }
+      @media (min-width: 992px) 
+      {
+        .td-img
+        { 
+          padding-right: 0% !important; 
+          /*padding-left: 0% !important;*/
+        }
+      }
+      .table td
+      {
+        vertical-align: 0 !important;
+      }
